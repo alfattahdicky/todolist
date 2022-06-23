@@ -1,7 +1,6 @@
 import React from 'react'
 import '../index.css'
 import Input from './Input';
-import Item from './Item';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,11 +14,12 @@ class App extends React.Component {
 
   render() {
     return (
-			<div className="grid place-items-center mt-12">
-				<h1 className="text-orange-500 text-2xl font-bold">Todolist</h1>
-				<Input />
-				<Item />
-			</div>
+      <div className="h-screen bg-slate-100">
+        <div className="max-w-full grid justify-items-center pt-12">
+          <h1 className="text-orange-500 text-3xl font-bold">Todolist</h1>
+          <Input />
+			  </div>
+      </div> 
     );    
   };
 }

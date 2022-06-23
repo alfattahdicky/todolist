@@ -8,7 +8,7 @@ class Item extends React.Component {
 		return (
 			<div className="card w-2/5 mt-8 bg-white shadow-md rounded-lg">
 				<div className="card-inner px-4 py-3 flex items-center justify-between">
-					<p>Hello World</p>
+					<p>{this.props.text}</p>
 					<div className="flex items-center gap-2">
 							<img className="w-6 h-6 bg-cover cursor-pointer hover:scale-90" src={checklist} alt="Check"
 								onClick={() => {console.log('hello')}} />
