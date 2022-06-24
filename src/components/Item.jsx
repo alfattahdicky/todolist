@@ -6,7 +6,7 @@ import deleteIcon from '../assets/delete.png';
 class Item extends React.Component {
 	render() {
 		return (
-			<div className="card w-2/5 mt-8 bg-white shadow-md rounded-lg">
+			<div className="card w-2/5 mt-2 bg-white shadow-md rounded-lg">
 				<div className="card-inner px-4 py-3 flex items-center justify-between">
 					<p>{this.props.text}</p>
 					<div className="flex items-center gap-2">
